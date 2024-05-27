@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flora</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="header lock-padding">
+            <a href="" class="header__logo"> <img class="logoo" src="img/logo.png" alt="Логотип"> </a>
+            <nav class="header__menu">
+                <ul class="header__list" id="menu">
+                    <li> <a href="" class="header__link"> Home </a> </li>
+                    <li> <a href="#about" class="header__link"> About </a> </li>
+                    <li> <a href="#service" class="header__link"> Service </a> </li>
+                    <li> <a href="#property" class="header__link"> New Property </a> </li>
+                    <li> <a href="#customers" class="header__link"> Customers </a> </li>
+                    <li> <button class="button__hide" id="open-modal__btn"> Contact Us </button> </li>
+                </ul>
+                <div class="hamb-filed" id="hamb">
+                    <img src="img/menu.png" class="img__menu" alt="">
+                </div>
+            </nav>
+            <div class="popup" id="popup"> </div>
+
+
+            <div class="header__img"> <img src="img/header.png" class="header__house" alt="Дом"> </div>
+            <h1 class="header__title"> Discover a place
+                you will love to live </h1>
+            <p class="header__subtitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Imperdiet tempus felis vitae sit est quisque. </p>
+            <div class="add1">
+                <p class="additional1"> 2000+ </p>
+                <p class="additional2"> Property Ready </p>
+            </div>
+            <div class="add2">
+                <p class="additional1"> 500+ </p>
+                <p class="additional2"> Happy Customers </p>
+            </div>
+        </div>
+
+        <div class="main">
+
+            <div class="work"> <a name="about"></a>
+                <p class="work__title"> How it Works </p>
+                <p class="work__subtitle"> Using it can make you sound like you have been studying english 
+                    for a long time. Here's the challenge </p>
+                <div class="work__click">
+                    <div class="work__images">
+                        <img class="work__img active" src="img/select1.png" alt="">
+                        <img class="work__img" src="img/select2.png" alt="">
+                        <img class="work__img" src="img/select3.png" alt=""> 
+                    </div>
+                    <div class="work__tabcontent fade">
+                        <p class="work__additional1"> Select Apartment </p>
+                        <p class="work__additional2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae. </p>
+                    </div>
+                    <div class="work__tabcontent fade">
+                        <p class="work__additional1"> Search Apartment </p>
+                        <p class="work__additional2"> Lorem ipsum dolor sit kis ku retu amet, consectetur adipiscing elit. Imperdiet tempus felis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae. </p>
+                    </div>
+                    <div class="work__tabcontent fade">
+                        <p class="work__additional1"> Confirm Apartment </p>
+                        <p class="work__additional2"> Lorem ipsum fade real door dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="help"> <a name="service"></a>
+                <p class="help__title"> We will help you to find 
+                    Dream Home </p>
+                <p class="help__subtitle"> It is a long established fact that a reader will be distracted by the readable content of a page 
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters </p>
+                <div class="rightimg">
+                    <img class="img1" src="img/main1.png" alt="">
+                </div>
+                <div class="accordion" id="acordion">
+                    <div class="accordion-head">
+                        <p class="help__name"> Apartment 2500 sqft </p>
+                        <img class="help__plus" src="img/plus.png" alt="">
+                    </div>
+                    <div class="accordion-block">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam
+                        veritatis est commodi vel magni voluptate dolore vero itaque, beatae
+                        soluta dolorum debitis expedita? 
+                    </div>
+                </div>
+            </div>
+
+            <div class="trend"> <a name="property"></a>
+                <p class="trend__title"> Our most trending properties </p>
+                <p class="trend__subtitle"> It is a long established fact that a reader will be distracted by the readable 
+                    content of a page when looking at its layout. The point of using. </p>
+                <nav class="nav1">
+                    <ul class="trend__data">
+                        <li data-f="all"> All </li>
+                        <li data-f="alizarin" > Less than 200,000$ </li>
+                        <li data-f="wisteria" > 200,000$ - 290,000$</li>
+                        <li data-f="emerland" > 290,000$ - 500,000$ </li>
+                    </ul>
+                </nav>
+                <div class="trend__images images">
+                    
+                    <div class="images__block1 block1 box wisteria">
+                        <img class="block1__img" src="img/home1.png" alt="">
+                        <p class="block1__cost"> $250000 </p>
+                        <p class="block1__title"> Luxury Apartment 
+                            in California </p>
+                        <div class="block1__info info">
+                            <img src="img/bed.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/bath.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/car.png" alt="" class="info__img">
+                            <p class="info__count"> 1 </p>
+                        </div>
+                    </div>
+
+                    <div class="images__block2 block2 box alizarin">
+                        <img class="block2__img" src="img/home2.png" alt="">
+                        <p class="block2__cost"> $175000 </p>
+                        <p class="block2__title"> Luxury Apartment 
+                            in California </p>
+                        <div class="block2__info info">
+                            <img src="img/bed.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/bath.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/car.png" alt="" class="info__img">
+                            <p class="info__count"> 1 </p>
+                        </div>
+                    </div>
+
+                    <div class="images__block3 block3 box emerland">
+                        <img class="block3__img" src="img/home3.png" alt="">
+                        <p class="block3__cost"> $300000 </p>
+                        <p class="block3__title"> Luxury Apartment 
+                            in California </p>
+                        <div class="block3__info info">
+                            <img src="img/bed.png" alt="" class="info__img">
+                            <p class="info__count"> 3 </p>
+                            <img src="img/bath.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/car.png" alt="" class="info__img">
+                            <p class="info__count"> 1 </p>
+                        </div>
+                    </div>
+
+                    <div class="images__block4 block4 box alizarin">
+                        <img class="block4__img" src="img/home4.png" alt="">
+                        <p class="block4__cost"> $140000 </p>
+                        <p class="block4__title"> Luxury Apartment 
+                            in California </p>
+                        <div class="block4__info info">
+                            <img src="img/bed.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/bath.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/car.png" alt="" class="info__img">
+                            <p class="info__count"> 1 </p>
+                        </div>
+                    </div>
+
+                    <div class="images__block5 block5 box emerland">
+                        <img class="block5__img" src="img/home5.png" alt="">
+                        <p class="block5__cost"> $500000 </p>
+                        <p class="block5__title"> Luxury Apartment 
+                            in California </p>
+                        <div class="block5__info info">
+                            <img src="img/bed.png" alt="" class="info__img">
+                            <p class="info__count"> 3 </p>
+                            <img src="img/bath.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/car.png" alt="" class="info__img">
+                            <p class="info__count"> 1 </p>
+                        </div>
+                    </div>
+
+                    <div class="images__block6 block6 box wisteria">
+                        <img class="block6__img" src="img/home6.png" alt="">
+                        <p class="block6__cost"> $275000 </p>
+                        <p class="block6__title"> Luxury Apartment 
+                            in California </p>
+                        <div class="block6__info info">
+                            <img src="img/bed.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/bath.png" alt="" class="info__img">
+                            <p class="info__count"> 2 </p>
+                            <img src="img/car.png" alt="" class="info__img">
+                            <p class="info__count"> 1 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customers"> <a name="customers"></a>
+                <p class="customers__title"> What our customers say's </p>
+                <p class="customers__subtitle"> It is a long established fact that a reader will be distracted by the readable 
+                    content of a page when looking at its layout. </p>
+
+                <div class="sliderNew">
+                    <div class="wrap">
+                        <div class="sliderNew-item fade">
+                            <img src="img/girl.png" alt="" class="slider__img">
+                            <p class="slider__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                            <p class="slider__name"> Kety Willions </p>
+                            <p class="slider__state"> California, United State </p>
+                        </div>
+                        <div class="sliderNew-item fade">
+                            <img src="img/man.png" alt="" class="slider__img">
+                            <p class="slider__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                            <p class="slider__name"> David Hamfry </p>
+                            <p class="slider__state"> New York, United State </p>
+                        </div>
+                        <div class="prev">&lt;</div>
+                        <div class="next">&gt;</div>
+                        <div class="sliderNew-dots">
+                            <div class="dot dot-active"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href=""> <img src="img/logo.png" alt="logo" class="footer__logo"> </a>
+            <p class="footer__title"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus
+                felis vitae sit est quisque. </p>
+            <ul class="list list1">
+                <li class="list__title"> Service </li>
+                <li class="list__base"> <a href="https://www.youtube.com/watch?v=QHDjJcCoohg"> Payment & Tax </a> </li>
+                <li class="list__base"> <a href="https://www.youtube.com/watch?v=QHDjJcCoohg"> Features </a> </li>
+                <li class="list__base"> <a href="https://www.youtube.com/watch?v=QHDjJcCoohg"> View Booking </a> </li>
+                <li class="list__base"> <a href="https://www.youtube.com/watch?v=QHDjJcCoohg"> Support </a> </li>
+                <li class="list__base"> <a href="https://www.youtube.com/watch?v=QHDjJcCoohg"> FAQs </a> </li>
+            </ul>
+            <ul class="list list2">
+                <li class="list__title"> Our Location </li>
+                <li class="list__base"> 2972 Westheimer Rd. Santa Ana, Illinois 85486 </li>
+            </ul>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a href="#" class="modal__close">X</a>
+                <div class="modal__title"> Our adresses and contacts to get in touch </div>
+                <div class="modal__text"> Number phone: +7 (123) 43-43-43 <br> (calling us is absolutely free) <br> The main office: Moscow, Krosnoselskaya, 1003, office 4390  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
